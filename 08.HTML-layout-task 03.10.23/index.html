@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      table,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th {
+        background-color: gray;
+      }
+      footer {
+        border: 1px solid green;
+      }
+      section {
+        border: 1px solid blueviolet;
+      }
+      nav {
+        border: 1px solid red;
+      }
+      header,
+      #formSection1 {
+        border: 1px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h2>This is a Header</h2>
+      <nav>
+        <h3>This is a Navigation</h3>
+        <ul type="none">
+          <li>
+            <a href="#Section 1">Section 1</a>
+          </li>
+          <li>
+            <a href="#FormSection1">Form Section 1</a>
+          </li>
+          <li>
+            <a href="#Form Section 2">Form Section 2</a>
+          </li>
+          <li>
+            <a href="#Footer">Footer</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="sectionWeb">
+      <h3>Section 1</h3>
+      <h4>Web Browsers</h4>
+      <p>
+        Google Chrome, Firefox, and Internet Explorer are the most used beowsers
+        today.
+      </p>
+      <h3>Google Chrome</h3>
+      <p>Google Chrom in 2008.</p>
+      <h3>Article</h3>
+      <p>
+        Internet Explorer is a free web browser from Microsoft, released in
+        1995.
+      </p>
+      <h3>Mozilla Firefox</h3>
+      <p>
+        Firefox is a free, open-source web browser from Mozilla, released in
+        2004.
+      </p>
+    </section>
+    <section id="formSection1">
+      <h3>Form Section 1</h3>
+      <label for="Name">Name:</label>
+      <input type="text" name="" id="" />
+      <br />
+      <form action="">
+        <label for="">Gender:</label>
+        <input type="radio" name="name" />Male
+        <input type="radio" name="name" id="" /> Female
+        <br />
+        <label for="">Pests:</label>
+        <select id="City" name="City">
+          <option value="">City</option>
+        </select>
+        <button>Submit</button>
+      </form>
+    </section>
+    <section id="Form Section 2">
+      <h3>Form Section 2</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Fist Name</th>
+            <th>Last Name</th>
+            <th>Email Address</th>
+          </tr>
+          <tr>
+            <td>Hillary</td>
+            <td>Nyakundi</td>
+            <td>tables@gmail.com</td>
+          </tr>
+          <tr>
+            <td>Lary</td>
+            <td>Mak</td>
+            <td>developer@gmail.com</td>
+          </tr>
+        </thead>
+      </table>
+      <br />
+      <br />
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+          </tr>
+          <tr>
+            <td rowspan="2">Hillary</td>
+            <td>Advanced Web</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td>Operating Syatem</td>
+            <td>60</td>
+          </tr>
+          <tr>
+            <td rowspan="2">Lary</td>
+            <td>Advanced Web</td>
+            <td>80</td>
+          </tr>
+          <tr>
+            <td>Operating Syatem</td>
+            <td>75</td>
+          </tr>
+          <tr>
+            <td colspan="3">Total Average: 72,5</td>
+          </tr>
+        </thead>
+      </table>
+    </section>
+
+    <footer id="Footer">
+      <h3>Footer</h3>
+      <p>Copyright all right reserved</p>
+    </footer>
+  </body>
+</html>
