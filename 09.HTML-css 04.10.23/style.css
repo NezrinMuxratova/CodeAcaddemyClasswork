@@ -1,0 +1,73 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:system-ui, 'Courier New', Courier, monospace 
+}
+ li{ 
+    color: red
+ }
+#headerH {
+    background-image: url(harry-potter.jpg) ;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    padding: 32px;
+}
+
+#ulNames {
+    list-style: none;
+}
+div {
+    background-color: rgb(10, 88, 10);
+    height: 100px;
+    padding:16px
+}
+.h3{
+    color:yellow;
+}
+    
+    
+p{
+    color:blue;
+}
+span{
+    color: coral;
+}
+h2{
+    color:aqua
+}
+#div{
+    background-color: rgb(32, 155, 155);
+    height: 200px;
+    padding: 36px;
+}
+table,
+th,
+td {
+    border:1px solid rgb(14, 14, 146);
+    border-collapse:collapse;
+}
+.divblue{
+    background-color: rgb(37, 118, 155);
+    height: 200px;
+    padding:36px;
+}
+button{
+    background-color: rgb(32, 155, 155);
+    border-radius: 50px;
+}
+ #divpink {
+    background-color: pink;
+    height: 1000px;
+ }
+ input {
+    border-radius:10px
+ }
+ .black{
+    color:black;
+ }
+ ::placeholder{
+    color:red
+ }
