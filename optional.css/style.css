@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#big {
+  background-image: url(./Landscape-Color.jpg);
+  background-attachment: fixed;
+}
+.box {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border: 1px solid red;
+}
+#folder {
+  background-image: url(./035c2873edcaefa0a6e15ac81258a234.webp);
+}
+#small {
+  background-image: url(./Landscape-Color.jpg);
+  background-attachment: fixed;
+}
+#gradient {
+  background-image: linear-gradient(to right bottom, blue, yellow, green,red);
+}
