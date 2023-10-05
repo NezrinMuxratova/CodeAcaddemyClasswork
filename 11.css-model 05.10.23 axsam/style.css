@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: blue;
+    height: 100vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    border: 1px solid;
+    background-color: aliceblue;
+    height: 200px;
+     margin: 300px;
+     color: gray;
+    
+}
+  #in{
+    
+  }
+
+
+
+
+
