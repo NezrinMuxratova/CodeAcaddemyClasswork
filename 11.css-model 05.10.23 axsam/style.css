@@ -14,15 +14,21 @@
 .form{
     border: 1px solid;
     background-color: aliceblue;
-    height: 200px;
-     margin: 300px;
+    height: 300px;
+    width: 500px;
      color: gray;
+     margin:30px;
     
 }
-  #in{
-    
-  }
 
+.in{
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+ .in:hover{
+    background-color:transparent;
+ }
 
 
 
