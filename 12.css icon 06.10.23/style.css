@@ -1,0 +1,61 @@
+div p section{
+    font-weight: 10px;
+    color:black
+}
+.onesans{
+    font-family: 'AR One Sans', sans-serif;
+    color:blue;
+    font-weight: 800px;
+    font-size: 50px;
+    text-decoration: underline solid;
+    text-shadow: 7px 2px 8px teal;
+}
+.monoton{
+    font-family: 'Martian Mono', monospace;
+    color:rgb(172, 20, 202);
+    font-weight: 700px;
+    font-size:30px;
+}
+
+
+.box{
+    font-family: 'Martian Mono', monospace;
+    color:rgb(172, 20, 202);
+    font-weight: 700px;
+    font-size:30px;
+}
+.ipsum{
+    font-family: 'Roboto Mono', monospace;
+    color:green;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.love{
+    font-family: 'Monoton', cursive;
+
+}
+.apple{
+    font-family: 'Roboto Mono', monospace;
+    color:green;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.text{
+    font-family: 'Roboto Mono', monospace;
+    color:rgb(184, 121, 6);
+    font-size: 50px;
+    font-weight: 500px; 
+}
+.textt{
+    font-family: 'AR One Sans', sans-serif;
+    color:red;
+    font-size: 30px;
+    font-weight: 700px;
+}
+.boxe1{
+    color:rgb(0, 204, 255);
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    font-weight: 300px;
+
+}
