@@ -1,0 +1,68 @@
+.green{
+    height: 100px;
+    background-color: rgb(28, 104, 28);
+    margin:1rem
+}
+.text1,.text2, .text3, .text4{
+    display:flex;
+    justify-content: space-between;
+    gap:60px;
+     margin-bottom: 1rem;
+}
+.text1-1{
+    width: 10%;
+    border:5px solid;
+}
+.text1-2{
+    width: 80%;
+    border:5px solid;
+}
+.text1-3{
+    width: 10%;
+    border:5px solid;
+}
+.text2-1{
+    width: 70%;
+    border:5px solid;
+}
+.text2-2{
+    width: 10%;
+    border:5px solid;
+}
+.text2-3{
+    width: 20%;
+    border:5px solid;
+}
+.text3-1{
+    width: 10%;
+    border:5px solid;
+}
+.text3-2{
+    width: 20%;
+    border:5px solid;
+}
+.text3-3{
+    width: 70%;
+    border:5px solid;
+}
+.text4-1{
+    width: 20%;
+    border:5px solid;
+}
+.text4-2{
+    width: 10%;
+    border:5px solid;
+}
+.text4-3{
+    width: 20%;
+    border:5px solid;
+}
+.text4-4{
+    width: 10%;
+    border:5px solid;
+}
+.text4-5{
+    width: 20%;
+    border:5px solid;
+}
+
