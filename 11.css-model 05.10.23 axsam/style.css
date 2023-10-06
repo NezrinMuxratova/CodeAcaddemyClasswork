@@ -1,35 +1,68 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.container{
-    background-color: blue;
-    height: 100vh;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.form{
-    border: 1px solid;
-    background-color: aliceblue;
-    height: 300px;
-    width: 500px;
-     color: gray;
-     margin:30px;
-    
+.container {
+  background-color: rgb(19, 144, 175);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.in{
-    padding: 10px 20px;
-    border-radius: 10px;
-    background-color: aqua;
+.in {
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgb(14, 122, 77);
+  margin-bottom: 20px;
+  margin: 20px;
 }
- .in:hover{
-    background-color:transparent;
- }
+.in:hover {
+  background-color: transparent;
+}
 
+.loginn {
+  margin-bottom: 20px;
+  text-align: center;
+}
 
+#inputt {
+  margin-bottom: 9px;
+  border-radius: 5px;
+  color: rgb(187, 183, 183);
+  padding: 5px;
+  outline: none;
+}
+#user {
+  margin-bottom: 9px;
+  border-radius: 5px;
+  color: rgb(187, 183, 183);
+  padding: 5px;
+  width: 156px;
+  outline: none;
+}
 
+input {
+  width: 100%;
+}
 
+.formDiv {
+  border: 1px solid;
+  border: 1px solid;
+  background-color: aliceblue;
+  width: 300px;
+  color: rgb(0, 0, 0);
+  margin: 50px;
+  padding: 60px;
+  text-align: center;
+  border: 5px solid rgb(15, 70, 190);
+  border-radius: 5px;
+}
+.forgot {
+  color: white;
+  text-align: center;
+}
+.forgot a {
+  color: orange;
+}
