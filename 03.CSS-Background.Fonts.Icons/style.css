@@ -126,7 +126,7 @@ form button:hover {
   display: flex;
     justify-content: space-around;
     margin: 20px;
-    padding: 2opx;
+    padding: 0px;
 
 }
 .company a i:hover {
