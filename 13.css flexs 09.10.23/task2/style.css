@@ -1,0 +1,66 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, violet, red);
+    height: 100vh;
+}
+.text{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.intagram{
+    border: 1px solid white;
+    background-color: white;
+    height: 50vh;
+    width: 500px;
+  text-align: center;
+}
+input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+}
+button{
+    width: 400px;
+    background-color: rgb(18, 20, 148);
+    color: white;
+    height: 30px;
+    border-radius: 5px;
+}
+.instagram div h2{
+    font-family: 'Playfair Display', serif;
+   
+
+}
+.login div h2{
+color: white;
+}
+.text1 a{
+   text-decoration: none;
+   display: flex;
+   color: rgb(10, 10, 184);
+   text-align: center;
+   margin: 30px 100px;
+}
+#text{
+    text-align: center;
+}
+.button{
+  background-color: white;
+  color:black;
+  display: flex;
+  text-align: center;
+  height: 40px;
+  align-items: center;
+}
+.button a{
+    text-decoration: none;
+    color: rgb(13, 13, 189);
+}
+
