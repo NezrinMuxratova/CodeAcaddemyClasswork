@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(182, 212, 212);
+}
+.container {
+  justify-content: space-around;
+  display: flex;
+}
+.header {
+  gap: 20px;
+  margin: 60px;
+}
+.text1 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin:10px 0;
+}
+.text {
+  color: green;
+  margin:10px 0;
+}
+a .text1 {
+  color: black;
+}
+a:link {
+  text-decoration: none;
+}
+.form {
+  border: 1px solid rgb(255, 255, 255);
+  text-align: center;
+  margin: 60px;
+  background-color: white;
+}
+.contact {
+  gap: 20px;
+}
+.input {
+    padding: 1.5rem;
+}
+.contact input, textarea {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+  padding: 5px;
+  border: none;
+}
+.contact input:focus {
+    outline: none;
+}
+.btnDiv {
+    margin-top: 1rem;
+}
+.btnDiv button {
+  width: 100%;
+  background-color: green;
+  color: white;
+  border: none;
+  padding: 8px 0;
+}
+.input input,
+textarea {
+  background-color: rgba(212, 217, 218, 0.842);
+  border-radius: 3px;
+  width: 100%;
+}
+h2 {
+  color: blue;
+  margin: 20px;
+}
+.footer{
+    margin:120px 0;
+    text-align: center;
+    background-color: black;
+    height:20vh;
+}
+footer{
+    text-align: center;
+}
+.footer i{
+    color:white;
+    align-items: center;
+    justify-content: center;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box p{
+    color:rgb(5, 49, 5);
+}
+footer{
+    text-align: center;
+    height:20vh;
+}
