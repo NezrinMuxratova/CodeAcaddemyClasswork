@@ -5,8 +5,8 @@
 }
 
 body {
-    height: 100vh;
-    background-color: rgb(182, 212, 212);
+  height: 100vh;
+  background-color: rgb(182, 212, 212);
 }
 .container {
   justify-content: space-around;
@@ -18,11 +18,11 @@ body {
 }
 .text1 {
   font-family: "Roboto Condensed", sans-serif;
-  margin:10px 0;
+  margin: 10px 0;
 }
 .text {
   color: green;
-  margin:10px 0;
+  margin: 10px 0;
 }
 a .text1 {
   color: black;
@@ -40,9 +40,10 @@ a:link {
   gap: 20px;
 }
 .input {
-    padding: 1.5rem;
+  padding: 1.5rem;
 }
-.contact input, textarea {
+.contact input,
+textarea {
   display: flex;
   justify-content: center;
   margin: 10px 0;
@@ -50,10 +51,10 @@ a:link {
   border: none;
 }
 .contact input:focus {
-    outline: none;
+  outline: none;
 }
 .btnDiv {
-    margin-top: 1rem;
+  margin-top: 1rem;
 }
 .btnDiv button {
   width: 100%;
@@ -72,35 +73,22 @@ h2 {
   color: blue;
   margin: 20px;
 }
-.footer{
-    margin:120px 0;
-    text-align: center;
-    background-color: black;
-    height:20vh;
+.footer {
+  margin: 120px 0;
+  text-align: center;
+  background-color: black;
+  height: 20vh;
 }
-footer{
-    text-align: center;
+footer {
+  background-color: black;
+  color: white;
+  padding: 30px 0;
 }
-.footer i{
-    color:white;
-    align-items: center;
-    justify-content: center;
-}
-.icon{
+footer .footer {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
-.box{
-    color:white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.box p{
-    color:rgb(5, 49, 5);
-}
-footer{
-    text-align: center;
-    height:20vh;
-}
+ .copyright p{
+  color: rgb(15, 88, 15);
+ }
