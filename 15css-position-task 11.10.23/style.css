@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    height: 200vh;
+}
+.image {
+  background-image: url("./photo-1695605118408-b31785f23152.avif");
+  height: 400px;
+}
+.headerDiv {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  color: green;
+  height: 50px;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background-color: black;
+  padding: 10px;
+}
+
+#box {
+  background-color: rgb(69, 129, 77);
+  height: 100%;
+  position: relative;
+}
+.box1 {
+    height: 80px;
+    background-color: rgb(20, 104, 104);
+    width: 80%;
+    position: absolute;
+    top:90px;
+    left:90px;
+}
