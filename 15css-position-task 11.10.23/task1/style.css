@@ -7,8 +7,12 @@ body {
     height: 200vh;
 }
 .image {
-  background-image: url("./photo-1695605118408-b31785f23152.avif");
+  background-image: url("./photo-1695605118408-b31785f23152.avif") ;
   height: 400px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  
 }
 .headerDiv {
   align-items: center;
