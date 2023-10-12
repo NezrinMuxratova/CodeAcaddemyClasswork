@@ -1,0 +1,30 @@
+body{
+    height: 2400px;
+}
+
+.black{
+    width: 100%;
+    color:aquamarine;
+    height: 30px;
+    background-color: black;
+}
+#header1{
+    position: sticky;
+    top:0;
+    left:100%;
+}
+#header2{
+    position: sticky;
+    top:0;
+    left:100%;
+}
+#header3{
+    position: sticky;
+    top:0;
+    left:100%;
+}
+#header4{
+    position: sticky;
+    top:0;
+    left:100%;
+}
