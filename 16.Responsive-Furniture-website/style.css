@@ -1,0 +1,62 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+body{ 
+    background-image: url(./image/image\ 3.svg);
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+}
+.container{
+    max-width: 1200px;
+   margin:0 auto;
+ 
+    
+}
+.title{
+    padding:10px;
+    display: flex;
+    color:white;
+   align-items: center;
+   justify-content: space-between;
+   
+}
+.image{
+   
+}
+.about nav ul{
+ display: flex;
+ column-gap: 20px;
+
+}
+.section{
+    color:white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.text{
+ border: 1px solid;
+ width: 20%;
+  
+}
+.login1{
+    
+}
+.login{
+    width: 20%;
+    height: 50px;
+    border-radius:20px;
+    position: relative;
+}
+.login1 i{
+    position: absolute;
+   
+
+
+}
