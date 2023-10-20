@@ -1,0 +1,63 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+.boxes{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:10px;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s ;
+}
+.box p{
+    display: none;
+}
+.boxes .box:nth-child(1){
+    background-color: red;
+
+
+}
+.boxes .box:nth-child(2){
+    background-color: green;
+}
+.boxes .box:nth-child(3){
+    background-color: blue;
+}
+.boxes .box:nth-child(4){
+    background-color:chocolate;
+
+}
+.boxes .box:nth-child(1):hover{
+transform: scale(1.2);
+
+}
+.box:hover p{
+    display: block;
+    font-size: 2rem;
+    color:white;
+}
+.box:hover h1{
+    display: none;
+}
+.boxes .box:nth-child(2):hover{
+    transform: translate(50%,-100%) ;
+}
+.boxes .box:nth-child(3):hover{
+    transform: rotateY(360deg) ;
+}
+.boxes .box:nth-child(4):hover{
+    transform: skew(20deg) ;
+}
