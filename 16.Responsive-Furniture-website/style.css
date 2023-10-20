@@ -36,9 +36,9 @@
 .about nav ul li a {
   color: white;
 }
-.icon12{
- display: flex;
- column-gap:5px;
+.icon12 {
+  display: flex;
+  column-gap: 5px;
 }
 .box {
   display: flex;
@@ -64,123 +64,193 @@
   padding: 20px;
   row-gap: 20px;
 }
-.login1{
-     position: relative; 
+.login1 {
+  position: relative;
 }
 .login {
-    max-width: 1200px;
+  max-width: 1200px;
   border-radius: 20px;
-
   padding: 10px 40px;
   background-color: rgba(255, 255, 255, 0.3);
-  border: none;
+  border: 1px solid white;
 }
-::placeholder{
-    color: white;
+::placeholder {
+  color: white;
 }
 .login1 i {
   position: absolute;
   right: 5px;
-   top:10px;
-
+  top: 10px;
 }
-.fa-solid.fa-bars{
-    display: none;
- }
+.fa-solid.fa-bars {
+  display: none;
+}
 .fa-solid {
   /* border: 1px solid white; */
   /* border-radius: 50%; */
-
 }
- @media screen and (max-width:767px){
-  .about{
+@media screen and (max-width: 767px) {
+  .about {
     display: none;
   }
-  .fa-solid.fa-bars{
+  .fa-solid.fa-bars {
     display: block;
   }
-  .section{
+  .section {
     width: 60%;
   }
- 
- }
-  .footer1-1{
-    margin:20px;
-    padding:20px;
-   
-  }
-  .footer1-1 h1{
-    padding:20px;
-   
-  }
-  #footer{
-    display: flex;
-    column-gap:20px;
-  }
- .footer1-2{
-   border:1px solid rgba(247, 148, 137, 1);
-   border-radius: 5px;
-   width: 25%;
-   text-align:left;
-   padding:20px;
-  border:none;
+}
+.footer1-1 {
+  margin: 20px;
+  padding: 20px;
+}
+.footer1-1 h1 {
+  padding: 20px;
+}
+#footer {
+  display: flex;
+  column-gap: 20px;
+}
+.footer1-2 {
+  border: 1px solid transparent;
+  border-radius: 5px;
+  width: 25%;
+  text-align: left;
+  padding: 20px;
+}
+.footer1-2:hover {
+  box-shadow: 2px 2px 6px rgba(247, 148, 137, 1);
+  border: 1px solid rgba(247, 148, 137, 1);
+}
+.textfooter1 {
+  color: rgba(247, 148, 137, 1);
+}
+.footer1-3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  line-height: 30px;
+}
 
- }
- .footer1-2:hover{
-    box-shadow: 2px 2px 6px rgba(247, 148, 137, 1) ;
-    border:1px solid rgba(247, 148, 137, 1);
- }
- .textfooter1{
-    color: rgba(247, 148, 137, 1);
+@media screen and (max-width: 767px) {
+  .footer1-1 h1 {
+    display: none;
+  }
+  #footer {
+    display: block;
+  }
+  .footer1-2 {
+    width: 80%;
+  }
+}
+.container1 {
+  margin: 10px;
+}
+#page3 {
+  justify-content: space-between;
+}
+.threepage {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  column-gap: 40px;
+}
+.threepage-1 {
+  width: 30%;
 
- }
- .footer1-3{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.threepageimage {
+  width: 100%;
+}
+.pilustext {
+  display: flex;
+  justify-content: space-between;
+}
+.container2 {
+  margin: 0;
+  padding: 0;
+}
+.container2 h1 {
+  text-align: center;
+}
+#tableimage {
+  display: flex;
+}
+.tableimage {
+  width: 45%;
+  text-align: left;
+}
+.table {
+  width: 120%;
+}
+.product {
+  padding: 0 95px;
+}
+.twotableimage {
+  display: flex;
+}
+@media screen and (max-width: 767px) {
+  #tableimage {
+    display: block;
+  }
+  .starts {
     display: flex;
+  }
+  .threepage {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .threepage {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+#fourpage {
+  display: flex;
+}
+.fourpage {
+  padding: 20px;
+  display: inline;
+  flex-direction: column;
+  row-gap: 20px;
+  text-align: left;
+}
+.fourpage h1 {
+  padding: 60px;
+  text-align: center;
+}
+
+.fourpage1 {
+  width: 40%;
+  padding: 20px;
+}
+.fourpage1-2 {
+  line-height: 30px;
+}
+.fourpage1-3 {
+  display: flex;
+  padding: 20px 0;
+}
+@media screen and (max-width: 767px) {
+  #fourpage {
     flex-direction: column;
-    row-gap: 20px;
-    line-height: 30px;
- 
- }
- .box1-1{
-    border:none;
-    box-shadow: none;
- }
-@media screen and (max-width:767px) {
-    .footer1-1 h1{
-        display: none;
-    }
-    #footer{
-      display: block;
-    }
-    .footer1-2{
-        width: 80%;
-    }
-}  
-.container{
+    align-items: center;
+  }
+}
+#endpage {
+  background-color: black;
+}
+.endpage1-1{
+    color:white;
 
 }
-#page3{
-    justify-content: space-between;
-}
-.threepage{
-    margin:0;
-    padding:0;
+#endpage{
     display: flex;
-    column-gap: 40px;
-   
-}
-.threepage-1{
-    width: 30%;
-    
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-
-}
-.threepageimage{
-    width: 30%;
-}
-.pilustext{
-    display: flex;
-    justify-content: space-between;
+   justify-content: space-between;
 }
