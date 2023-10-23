@@ -1,0 +1,15 @@
+header{
+    background-color: $primary-color;
+    padding: 2rem;
+    .header{
+        @include flexbox ();
+         ul{
+            display: flex;
+            column-gap:20px
+         }
+         a{
+          color:$color-red; 
+          text-decoration: $text-decoration;
+         }
+    }
+}
