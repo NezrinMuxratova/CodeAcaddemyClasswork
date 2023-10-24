@@ -54,6 +54,19 @@ table {
 
 * {
   text-decoration: none;
+  list-style: none;
+}
+
+h1 {
+  font-size: 58px;
+}
+
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 20px;
 }
 
 .container {
@@ -61,30 +74,22 @@ table {
   margin: 0 auto;
 }
 
-header {
-  background-color: yellow;
-  padding: 2rem;
-}
 header .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
 }
-header .header ul {
+header .header nav ul {
   display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
-header .header a {
-  color: rgb(141, 47, 47);
-  text-decoration: none;
+header .header nav ul li a {
+  color: #737373;
 }
 
-footer {
-  background-color: #f0b392;
-}
-footer .container .footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+#sectionpage1 {
+  background-image: url("./base/image/cover.svg");
+  height: 100vh;
 }/*# sourceMappingURL=main.css.map */

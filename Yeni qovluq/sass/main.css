@@ -62,7 +62,7 @@ table {
 }
 
 header {
-  background-color: yellow;
+  background-color: rgb(255, 94, 0);
   padding: 2rem;
 }
 header .header {
@@ -83,8 +83,47 @@ header .header a {
 footer {
   background-color: #f0b392;
 }
-footer .container .footer {
+footer .footer .footer-h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: solid #F3D1BF;
+}
+footer .footer .footer-h2 h1 {
+  color: #391400;
+  font-size: 2rem;
+  padding: 20px 0;
+}
+footer .footer .footer-h2 .footer-1 {
+  padding: 20px;
+}
+footer .footer .footer-h2 .footer-1 h2 {
+  color: #EF6D58;
+}
+footer .footer .footer-h2 .footer-1 nav ul li {
+  padding: 10px 0;
+}
+footer .footer .footer-h2 .footer-1 nav ul li a {
+  color: #391400;
+}
+footer .footer .footer-h2 .footer-3 .fa-brands {
+  color: #EF6D58;
+  font-size: 2rem;
+}
+footer .footer-4 {
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #391400;
+}
+footer .footer-4 nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+footer .footer-4 nav ul li a {
+  color: #391400;
 }/*# sourceMappingURL=main.css.map */

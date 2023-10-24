@@ -1,0 +1,58 @@
+footer{
+    background-color: $color-all;
+      .footer{
+        .footer-h2{
+            @include flexBox();
+               border-bottom: solid $color-solid;
+              
+            h1{
+                color:$color-h2;
+                font-size:2rem;
+                padding: 20px 0;
+            }
+            .footer-1{
+                padding: 20px;
+                h2{
+                    color:$color-pink;
+                }
+                nav{
+                    ul{
+                        li{
+                            padding:10px 0;
+                            a{
+                                color:$color-h2;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+            .footer-3{
+                .fa-brands{
+                    color:$color-pink;
+                    font-size: 2rem;
+            }
+      }
+     
+    }  
+      
+}
+.footer-4{
+     padding:  20px 0;
+    @include flexBox();
+    color:$color-h2;
+  
+    nav{
+        ul{
+             @include flexBox(space-between);
+             column-gap: 20px;
+            li{
+                a{
+                    color:$color-h2;
+                  
+                }
+            }
+        }
+    }
+}
+}

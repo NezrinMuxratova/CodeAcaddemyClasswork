@@ -1,0 +1,17 @@
+footer{
+    background-color: $color-all;
+    .container{
+       .footer{
+        @include flexBox();
+        h1{
+            color:$color-h2;
+            font-size:2rem;
+            padding: 20px 0;
+        }
+        .footer-1{
+            padding: 20px;
+        }
+    }  
+    }
+   
+}
