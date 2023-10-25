@@ -1,0 +1,97 @@
+#home {
+    
+  #portfolio-section1-home {
+    background-color: $color-all;
+    padding:200px 0;
+    .home{
+       @include Flexbox();
+       h1{
+        line-height: 80px;
+       }
+       p{
+        text-align: center;
+        align-items: center;
+        max-width: 500px;
+        color:$color-grey;
+        padding: 20px 0;
+       }
+    }
+  }
+}
+#section3-page2{
+    background-color: $color-page2;
+    .page2{
+        padding:30px;
+        ul{
+              @include flexbox();
+              li{
+                a{
+                    color: rgba($color: $text-dark, $alpha: 0.64)
+                }
+              }
+        }
+      
+    }
+}
+#section4-page3{
+    background-color: $color-page2;
+    .page3-header{
+       @include flexbox(); 
+       flex-wrap: wrap;
+       row-gap:20px;
+        .page3{
+    
+        .image-box-1{
+           position: relative;
+           width: 30%;
+           .text{
+            position: absolute;
+            bottom:10px;
+            left:10px;
+           }
+           .image1{
+            width: 100%;
+           }
+        }
+    }
+    }
+    @media screen and (max-width:767px) {
+   .page3-header{
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    .page3{
+      width: 100%;
+    }
+   }
+    }
+  
+}
+#section5-page4{
+  background-color: $color-page2;
+  padding:100px;
+  .page4{
+    text-align: center;
+
+  }
+}
+#section5-page5{
+  background-color: $section5-color;
+  .page5{
+    @include flexbox();
+    .page5-left{
+     
+      h2{
+        width:368px;
+        padding:20px 0;
+      }
+      p{
+        color:rgba($color: $color-white, $alpha: 0.64);
+        width: 470px;
+        line-height: 20px;
+        padding:20px 0;
+
+      }
+    }
+  }
+}

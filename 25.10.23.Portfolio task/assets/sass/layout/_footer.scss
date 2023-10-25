@@ -1,0 +1,9 @@
+footer{
+    background-color: $color-page2;
+    .footer-h2{
+        @include flexbox();
+        
+    }
+}
+
+        
